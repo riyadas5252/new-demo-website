@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign-In Page</title>
+  <link rel="stylesheet" href="../css/signin.css" />
+</head>
+
+<body>
+  <script src="../javascript/signin-validation.js"></script>
+  <section>
+    <div class="wrapper">
+      <!-- <div class="imgBox">
+                <img src="../Assets/Images/background.jpg">
+            </div> -->
+      <form id="signin-form" action="/service-pages/profile.html">
+        <h2>Sign In</h2>
+        <div class="inputBox">
+          <span>Username</span>
+          <input type="text" id="username" placeholder="username" required />
+        </div>
+        <div class="inputBox">
+          <span>Email</span>
+          <input type="text" id="email" placeholder="email-Id" required />
+        </div>
+
+        <div class="inputBox">
+          <span>Password</span>
+          <input type="password" id="password" placeholder="password" required />
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="SignIn" />
+        </div>
+        <div class="signupBox">
+          <span>Don't have an account? <a href="/index.html">Sign Up</a></span>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>

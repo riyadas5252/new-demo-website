@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section>
+    <div class="imgBx">
+      <h1>dribble</h1>
+      <h2>
+        Discover the world's top <br />
+        Designers & Creatives
+      </h2>
+      <!-- <img src="Assets/Images/img1.jpg" /> -->
+    </div>
+
+    <div>
+      <div class="sideBox">
+        <span>Already have an account?
+          <a href="/service-pages/signin.html">Sign In</a></span>
+      </div>
+      <div class="contentBox">
+        <div class="formBox">
+          <h2>Sign up to Dribble</h2>
+          <form id="signup-form" action="/service-pages/profile.html">
+            <div class="inputBox" id="topBox">
+              <div>
+                <span>Name</span>
+                <input type="text" id="name" placeholder="name" required />
+              </div>
+              <div>
+                <span>Username</span>
+                <input type="text" id="username" placeholder="username" required />
+              </div>
+            </div>
+
+            <div class="inputBox">
+              <span>Email</span>
+              <input type="email" id="email" placeholder="email-Id" required />
+            </div>
+
+            <div class="inputBox">
+              <span>Password</span>
+              <input type="password" id="password" placeholder="6+ characters" required />
+            </div>
+
+            <div class="checkbox">
+              <label><input type="checkbox" id="checkbox" name="" required /> Creating an account means
+                you're okay with our <a href="#">Terms of Service, Privacy Policy,</a> and our
+                default <a href="#">Notification Settings</a>.</label>
+            </div>
+
+            <div class="inputBox">
+              <a href="/service-pages/profile.html">
+                <input type="submit" value="Create Account" />
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="/javascript/index.js"></script>
+</body>
+
+</html>

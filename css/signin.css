@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(../Assets/Images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    background: transparent;
+    color: #000000;
+    padding: 30px;
+}
+
+.wrapper h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .inputBox {
+    margin-bottom: 20px;
+}
+
+.wrapper .inputBox span {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #000308;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #09202c;
+    background: transparent;
+    border: 1px solid #607d8b;
+    border-radius: 40px;
+    outline: none;
+}
+
+.inputBox input[type="submit"] {
+    background: rgb(48, 44, 8);
+    color: #eef1f3;
+    border: none;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+.signupBox {
+    text-align: center;
+}
+
+.signupBox a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        padding: 20px;
+    }
+}

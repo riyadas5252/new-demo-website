@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>make-profile</title>
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
+
+<body>
+    <div class="profileBox">
+        <div class="header">
+            <h2>Welcome! Let's create your profile</h2>
+            <p>Let others get to know you better! You can do these later</p>
+        </div>
+        <div class="middle">
+            <h3>Add an avatar</h3>
+            <div class="upload">
+                <img src="../Assets/Images/noprofil.jpg" id="profile-pic">
+                <label for="inputfile">Choose Image</label>
+                <input type="file" accept="image/jpeg, image/png, image/jpg" id="inputfile" required>
+
+            </div>
+        </div>
+        <div class="lower">
+            <h3>Add your location</h3>
+            <div class="location">
+                <input type="text" class="input" id="location" required>
+            </div>
+        </div>
+
+        <div class="next">
+            <a href="/service-pages/cards.html"><input type="submit" value="Next"></a>
+            <p>or Press <a href="/index.html">RETURN</a></p>
+        </div>
+    </div>
+
+    <script src="../javascript/profile.js"></script>
+
+
+</body>
+
+</html>

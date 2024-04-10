@@ -1,0 +1,133 @@
+@font-face{
+    font-family: myFont;
+    src: url(../Assets/fonts/Adorable\ Handmade.ttf);
+  
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+section .imgBx {
+    position: relative;
+    width: 100%; 
+    height: 50vh; 
+    background: url(Assets/Images/img1.jpg) no-repeat;
+    background-size: cover; 
+}
+
+section .imgBx h1 {
+    font-family: MyFont;
+    font-weight: 600;
+    margin-top: 50px; 
+    margin-left: 30px; 
+    color: rgb(167, 106, 37);
+    font-size: 24px; }
+
+section .imgBx h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 20px; 
+    margin-left: 30px; 
+    font-size: 36px; 
+    color: rgb(167, 106, 37);
+}
+
+.sideBox {
+    position: relative;
+    margin-top: 30px; 
+    font-weight: 600;
+    font-size: 14px; 
+}
+
+section .contentBox {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   /* margin-top: 100px; */
+}
+
+section .contentBox .formBox {
+    width: 100%;
+    padding: 20px; 
+}
+
+section .contentBox .formBox h2 {
+    color: #0d1a21;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 30px; 
+    border-bottom: 2px solid #0d1a21;
+}
+
+section .contentBox .formBox .inputBox {
+    margin-bottom: 15px; 
+}
+
+
+section .contentBox .formBox .inputBox span {
+    font-size: 16px; 
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #000308;
+    font-weight: 600;
+}
+
+section .contentBox .formBox .inputBox input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    letter-spacing: 1px;
+    color: #2d5a70;
+    background: #eef1f3;
+    border-radius: 10px;
+}
+
+section .contentBox .formBox .inputBox input[type="submit"] {
+    background: rgb(223, 22, 113);
+    color: #eef1f3;
+    border: none;
+    font-weight: 800;
+    margin-top: 20px; 
+}
+
+section .contentBox .formBox .checkbox a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+    
+    section {
+        flex-direction: row; 
+    }
+    section .imgBx {
+        width: 50%; 
+        height: auto; 
+    }
+    section .contentBox {
+        width: 50%; 
+    }
+    .sideBox {
+        position: absolute;
+        top: 5%;
+        right: 0;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: right; 
+    }
+}
